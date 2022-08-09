@@ -15,10 +15,10 @@ Utility script to create a Zoom JSON web token (valid 1 hour)
 
 `npm install`
 
-3. Create .env file and add your Zoom API Key and Secret associated with your JWT app 
+3. Create .env file and add your Zoom API Key and Secret associated with your JWT app from the Zoom Marketplace
 
-API_KEY=
-API_SECRET=
+`API_KEY=`
+`API_SECRET=`
 
 ## Usage
 
