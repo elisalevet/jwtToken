@@ -22,7 +22,7 @@ console.log("This is the generated token using JWT credentials :",token)
 
 //Making an API call to Users/me with the generated token
 
-var options = {
+const options = {
     'method': 'GET',
     'url': 'https://api.zoom.us/v2/users/me',
     'headers': {
@@ -30,7 +30,7 @@ var options = {
     },
     'json' : true
   };
-  request(options, function (error, response) {
+  request(options, (error, response)  => {
     if (error) throw new Error(error);
     //Printing the response in the console
     console.log(response.body);
